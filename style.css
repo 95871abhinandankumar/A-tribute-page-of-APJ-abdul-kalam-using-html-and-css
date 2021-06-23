@@ -55,6 +55,7 @@
 
 #main-content{
     top: 100px;
+    min-height: 400px;
     height: 700px;
     margin-left: 2em;
     margin-bottom: -100px;
@@ -76,6 +77,7 @@
 
 #side-content {
     width: 20%;
+    min-height: 400px;
     background-color: white;
     float: right;
     clear: both;
