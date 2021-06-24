@@ -145,7 +145,7 @@ a {
     text-decoration:none;
 }
 
-@media(max-width:780px){
+@media(max-width:600px){
     .contents{
         overflow-x: auto;
     }
