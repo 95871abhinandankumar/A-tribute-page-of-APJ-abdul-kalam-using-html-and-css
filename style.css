@@ -53,6 +53,7 @@
 }
 .contents{
     overflow: auto;
+    display: flex;
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -147,7 +148,9 @@ a {
 
 @media(max-width:600px){
     .contents{
+        flex-direction: column;
         overflow-x: auto;
+
     }
     #main-content{
         padding-top: 10px;
